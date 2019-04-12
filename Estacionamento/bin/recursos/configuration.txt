@@ -1,0 +1,12 @@
+url=jdbc:mysql://192.168.2.119:3306/estacionamento
+usuario=root
+senha=tobinho1
+
+insertMov=insert into TB_MOVIMENTACAO (placa,marca,modelo,cor,data_entrada) 
+ values (?,?,?,?,?)
+ 
+ atualizaVaga=update TB_STATUS_VAGA set ocupadas = ? where id=1
+
+ inicializarOcupadas=select ocupadas from TB_STATUS_VAGA where id=1
+ 
+ 
